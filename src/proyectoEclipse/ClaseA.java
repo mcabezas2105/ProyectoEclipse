@@ -16,5 +16,10 @@ public void setNum(int num) {
 }
 
 
- 
+@Override
+public String toString() {
+	return "ClaseA [num=" + num + "]";
+}
+
+
 }
